@@ -57,7 +57,7 @@ const App = () => {
           {renderContent()}
           {resolution !== 'FullHD' && (
             <div className="w-full flex justify-center mt-4">
-              <FormControl variant="filled" className="m-4 rounded-lg bg-white">
+              <FormControl variant="filled" className="m-4 w-[200px] rounded-lg bg-white">
                 <InputLabel id="resolution-label">Độ phân giải</InputLabel>
                 <Select
                   labelId="resolution-label"
